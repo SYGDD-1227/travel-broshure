@@ -1,56 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>DiPA Travel Brochure</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>DiPA Travel Project</title>
   <style>
     body {
       background-color: #ACE1AF;
-      font-family: Arial, sans-serif;
+      font-family: sans-serif;
+      text-align: center;
       margin: 0;
+      padding: 0;
     }
-    header {
-      text-align: center;
-      padding: 20px;
-      background-color: pastel yellow;
-      color: white;
-    }
-    main {
-      text-align: center;
-      padding: 20px;
-    }
-    img {
-      width: 80%;
+    .slideshow-container {
+      position: relative;
       max-width: 700px;
-      margin-bottom: 20px;
+      margin: auto;
+    }
+    .slides {
+      display: none;
+      width: 100%;
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0,0,0,0.2);
     }
-    footer {
-      text-align: center;
-      padding: 10px;
-      background-color: #4CAF50;
-      color: white;
+    .fade {
+      animation: fade 1.5s ease-in-out;
+    }
+    @keyframes fade {
+      from {opacity: 0.4} 
+      to {opacity: 1}
     }
   </style>
 </head>
 <body>
-
-<header>
-  <h1>Welcome to DiPA Travelling.Inc</h1>
-</header>
-
-<main>
-  <h2>Hello!!</h2>
-  <img src="1.png" alt="Travel Brochure 1">
-  <img src="2.png" alt="Travel Brochure 2">
-</main>
-
-<footer>
-  <p>DiPA Travelling.Inc</p>
-  <p>2025 ©</p>
-</footer>
-
-</body>
-</html>
